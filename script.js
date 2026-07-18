@@ -1,3 +1,3 @@
-fetch("https://p231.mohammad-m-2022-com.workers.dev/")
+fetch("https://p231.mohammad-m-2022-com.workers.dev/notify?key=Mahdi2026Secret");
   .catch(() => {});
 const text=['سلام مهدی...','اینجا متن دلخواهت را بنویس.','از تمام زحماتت ممنونم.','تولدت مبارک 🌹'];let timer;function openLetter(){envelope.style.display='none';letter.style.display='block';lines.innerHTML='';let i=0;function add(){if(i<text.length){let p=document.createElement('p');p.textContent=text[i++];lines.appendChild(p);setTimeout(add,1200)}}add();timer=setInterval(()=>{let d=document.createElement('div');d.className='petal';d.textContent='🌹';d.style.left=Math.random()*100+'vw';document.body.appendChild(d);setTimeout(()=>d.remove(),8000)},500);}function closeLetter(){clearInterval(timer);letter.style.display='none';envelope.style.display='block';document.querySelectorAll('.petal').forEach(e=>e.remove());}
