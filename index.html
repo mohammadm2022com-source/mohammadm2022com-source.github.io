@@ -1,1 +1,220 @@
-<!doctype html><html lang='fa' dir='rtl'><head><meta charset='utf-8'><meta name='viewport' content='width=device-width,initial-scale=1'><link rel='stylesheet' href='style.css'><title>نامه</title></head><body><div id='scene'><div id='envelope' onclick='openLetter()'>✉️<div>برای مهدی<br><small>برای باز کردن لمس کن</small></div></div><article id='letter'><h1>تولدت مبارک مهدی</h1><div id='lines'></div><button onclick='closeLetter()'>بستن نامه</button><p class='sig'>محمد مهدی</p></article></div><script src='script.js'></script></body></html>
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <meta name="theme-color" content="#050814">
+
+    <meta name="description"
+          content="نامه‌ای برای مهدی">
+
+    <title>
+        نامه‌ای برای مهدی
+    </title>
+
+    <!-- فونت -->
+
+    <link rel="preconnect"
+          href="https://fonts.googleapis.com">
+
+    <link rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;700;800&display=swap"
+          rel="stylesheet">
+
+    <link rel="stylesheet"
+          href="style.css">
+
+</head>
+
+<body>
+
+<!-- ===================================== -->
+<!-- صفحه لود -->
+<!-- ===================================== -->
+
+<div id="loader">
+
+    <div class="loader-content">
+
+        <div class="loader-stars"></div>
+
+        <div class="loader-text">
+
+            بسم الله الرحمن الرحیم
+
+        </div>
+
+        <div class="loader-sub">
+
+            در حال آماده‌سازی نامه...
+
+        </div>
+
+    </div>
+
+</div>
+
+<!-- ===================================== -->
+<!-- آسمان -->
+<!-- ===================================== -->
+
+<div id="night">
+
+    <div id="moonGlow"></div>
+
+    <div id="moon"></div>
+
+    <div id="stars"></div>
+
+    <div id="shootingStars"></div>
+
+    <div id="particles"></div>
+
+    <div id="fog"></div>
+
+</div>
+
+<!-- ===================================== -->
+<!-- نور محیط -->
+<!-- ===================================== -->
+
+<div id="ambientLight"></div>
+
+<!-- ===================================== -->
+<!-- گلبرگ‌ها -->
+<!-- ===================================== -->
+
+<div id="petalContainer"></div>
+
+<!-- ===================================== -->
+<!-- صحنه -->
+<!-- ===================================== -->
+
+<main id="scene">
+
+    <!-- شمع چپ -->
+
+    <div class="candle left">
+
+        <div class="wax"></div>
+
+        <div class="wick"></div>
+
+        <div class="flame"></div>
+
+        <div class="glow"></div>
+
+        <div class="shadow"></div>
+
+    </div>
+
+    <!-- پاکت -->
+
+    <section id="envelope">
+
+        <div class="envelope-shadow"></div>
+
+        <div class="envelope-back"></div>
+
+        <div class="letter-shadow"></div>
+
+        <div class="envelope-front"></div>
+
+        <div class="envelope-flap"></div>
+
+        <div class="seal">
+
+            ✦
+
+        </div>
+
+        <div class="title">
+
+            <div class="besm">
+
+                بسم الله الرحمن الرحیم
+
+            </div>
+
+            <div class="receiver">
+
+                برای مهدی
+
+            </div>
+
+            <div class="hint">
+
+                برای باز کردن لمس کن
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- شمع راست -->
+
+    <div class="candle right">
+
+        <div class="wax"></div>
+
+        <div class="wick"></div>
+
+        <div class="flame"></div>
+
+        <div class="glow"></div>
+
+        <div class="shadow"></div>
+
+    </div>
+
+</main>
+
+<!-- ===================================== -->
+<!-- لایه نامه -->
+<!-- ===================================== -->
+
+<section id="letterWrapper">
+
+    <article id="letterPaper">
+
+        <div class="paperTexture"></div>
+
+        <div class="paperShadow"></div>
+
+        <div class="paperBurn"></div>
+
+        <header class="paperHeader">
+
+            <h1>
+
+                السلام علیک یا صاحب الزمان (عج)
+
+            </h1>
+
+            <h2>
+
+                تولدت مبارک مهدی 🌹
+
+            </h2>
+
+        </header>
+
+        <section id="typingArea">
+
+            <!--
+            متن توسط جاوااسکریپت
+            اینجا نوشته می‌شود
+            -->
+
+        </section>
